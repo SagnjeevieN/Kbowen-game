@@ -1,167 +1,76 @@
 body {
-	background-image: url(../../assets/images/fresh_snow.png);
-	font-family: 'Monda', sans-serif;
-	font-size: 16px;
-    margin-bottom: 150px;
+	background-image: url("../../assets/images/blue-background.jpg");
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
 }
 
-p {
-    margin: 0 0 10px;
+.crystal-image {
+	width: 150px;
+	height: auto;
+    border: 3px solid lightsteelblue;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
-html {
-	position: relative;
-	min-height: 100%;
-}
-
-/* main */
-
-#logo {
-	height: 60px;
-	padding-top: 20px;
-	padding-bottom: 5px;
-
-    margin-left: 70px;
-
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-
-    background-color: #545359;
-}
-
-.navbar {
-    margin-bottom: 45px;
-}
-
-.navbar-right {
-	padding-top: 10px;
-  	padding-right: 30px;
-  	font-family: Arial;
-  	font-weight: lighter;
-}
-
-.page-header > h1 {
-	margin-bottom: 33px;
-	font-size: 32px;
-	font-weight: bold;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	color: #545359;
-}
-
-#bio-image {
-	float: left;
-    width: 170px;
-    height: 175px;
-	margin-top: 5px;
-	margin-right: 20px; 
-}
-
-.icon-image {
-	width: 55px;
-	height: 55px;
-}
-
-
-#port-image {
-    width: 175px;
-    height: 165px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
-.panel.panel-default {
-	width: 100%;
-	padding: 30px;
-	margin-bottom: 30px;
-}
-
-.panel-body > p {
-	padding-right: 20px;
-	font-size: 16px;
-	line-height: 30px;
-	color: #545359;
-	text-align: justify;
-}
-
-.panel-body {
-	padding-top: 15px;
-	text-align: center;
-}
-
-.label-name,
-.label-msg,
-.label-email {
-	font-size: 17px;
-	color: #545359;
-	float: left;
-}
-
-.btn-default {
-  float: left;
-}
-
-#msg {
-	height: 200px;
-	border-color: #bbc;
-}
-
-#box-image {    
-	width: 200px;
-    height: 115px;
-}
-
-.footer {
-  /* Positioning */
-  position: absolute;
-  bottom: 0;
-
-  /* Box-model */
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-
-  /* Visual */
-  background-color: #666;
-}
-
-.bottom-footer {
-  height: 6px;
-  padding-top: 3px;
-  background-color: #4aaaa5;  
-}
-
-.text-footer {
-
-  color: #fff;
-  text-align: center;
-  margin-top: 15px;
-}
-
-@media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #545359;
-  }
-
-  #logo {
-    width: 100%;
-
-    /* Box-model */
-    height: 60px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-
-    /* Positioning */
-    margin-left: 0;
-    font-family: Georgia, Times, "Times New Roman", serif;
-
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
+#headermaster {
+	background-color: #658ED5;
+    width: 350px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: 25px;
     text-align: center;
+}
 
-    /* Visual */
-    background: #545359;
-  }
+#scores {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;	
+}
+
+.paragraph {
+    width: 370px;
+    height: 330px;
+    background-color: cornsilk;
+    color: teal;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.matches, .windandlose {
+	float: left;
+    width: 18%;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.matches {
+    height: 60px;
+    background-color: darkturquoise;
+    color: snow;
+}
+
+.winandlose {
+    background-color: skyblue;
+    color: lavender;
+    margin-left: 325px;
+    max-width: 100px;
+}
+
+.totalscore {
+    width: 16%;
+    height: 90px;
+    background-color: papayawhip;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+footer {
+    background: aliceblue;
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    color: #4A5BD2;
+    margin-top: 15px;
 }
